@@ -1,12 +1,6 @@
-.about {
-  background-image: url('../../images/family.png');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: contain;
-}
 
-.about__inner {
-  padding: 103px 0 295px;
+.about {
+  margin-top: 103px;
 }
 
 .about__title {
@@ -32,4 +26,16 @@
   padding: 13px 44px;
   line-height: 24px;
   background: #DC7000;
+}
+
+// @include mobile-first(768px) {
+//   .about-img {
+//     height: 250px;
+//   }
+// }
+
+@include mobile-first(992px) {
+  .about-img {
+    height: auto;
+  }
 }

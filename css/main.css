@@ -860,14 +860,7 @@ img {
   }
 }
 .about {
-  background-image: url("../../images/family.png");
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: contain;
-}
-
-.about__inner {
-  padding: 103px 0 295px;
+  margin-top: 103px;
 }
 
 .about__title {
@@ -893,4 +886,10 @@ img {
   padding: 13px 44px;
   line-height: 24px;
   background: #DC7000;
+}
+
+@media only screen and (min-width: 992px) {
+  .about-img {
+    height: auto;
+  }
 }/*# sourceMappingURL=main.css.map */
