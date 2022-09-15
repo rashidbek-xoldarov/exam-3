@@ -858,4 +858,39 @@ img {
   .project__item {
     height: 223px;
   }
+}
+.about {
+  background-image: url("../../images/family.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+
+.about__inner {
+  padding: 103px 0 295px;
+}
+
+.about__title {
+  margin-bottom: 34px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.about__text {
+  font-size: 13px;
+  line-height: 20px;
+  color: #515151;
+}
+
+.about__text-second {
+  font-size: 12px;
+  line-height: 18px;
+  color: #515151;
+}
+
+.about__link {
+  padding: 13px 44px;
+  line-height: 24px;
+  background: #DC7000;
 }/*# sourceMappingURL=main.css.map */
